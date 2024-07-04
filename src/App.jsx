@@ -8,8 +8,6 @@ import Search from './components/Search/Search'
 import Login from './pages/Login/Login'
 import PageNotFound from './pages/PageNotFound/PageNotFound'
 import ClickableFilterFatherContainer from './components/clickableFilterFatherContainer/clickableFilterFatherContainer'
-import ClickableFilterChild from './components/clickableFilterFatherContainer/ClickableFilterChild/ClickableFilterChild'
-import ClickableGamesIdea from './components/ClickableGamesIdea/ClickableGamesIdea'
 
 const router = createBrowserRouter([
   {
@@ -37,7 +35,10 @@ const router = createBrowserRouter([
         path: '/login',
         element: <Login />,
       },
-
+      {
+        path: ':category',
+        element: <GamesIdeas />,
+      },
       {
         path: '*',
         element: <PageNotFound />,
@@ -47,6 +48,8 @@ const router = createBrowserRouter([
 ])
 
 function App() {
+
+
   return (
     <>
       <RouterProvider router={router} />
