@@ -1,0 +1,25 @@
+.btns-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.btn-container {
+  width: 12vw;
+  height: 15vh;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+  border-radius: 7px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  gap: 10px;
+  display: flex;
+
+  justify-content: space-around;
+  margin: 3rem 2.9rem;
+}
+.btn-container:hover {
+  transform: scale(1.09);
+}
+.age {
+  background-color: rgb(173, 235, 235);
+}

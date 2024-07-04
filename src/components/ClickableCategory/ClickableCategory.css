@@ -1,0 +1,47 @@
+.clickable-category {
+  width: 92px;
+  height: 97px;
+  
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+  border-radius: 7px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.clickable-category:hover {
+  transform: scale(1.09);
+}
+.div-container {
+  width: 100%;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  background-color: rgb(236, 238, 238);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*import './ClickableCategory.css'
+// import { useDataContext } from '../../context/gamesContext'
+
+// const ClickableCategory = () => {
+//   const { games } = useDataContext()
+
+//   console.log('games from home page ', games)
+
+//   console.log(games.categories[0])
+
+//   return (
+//     <div className="clickableCategoryCard">
+//       <p>ClickableCategory</p>
+//       <div></div>
+//     </div>
+//   )
+// }
+
+// export default ClickableCategory

@@ -1,0 +1,33 @@
+/*import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Layout from './components/Layout/Layout'
+import Home from './pages/Home/Home'
+import GamesIdea from './pages/GamesIdea/GameIdea'
+import About from './pages/About/About'
+import Search from './components/Search/Search'
+import Login from './pages/Login/Login'
+import PageNotFound from './pages/PageNotFound/PageNotFound'
+import { GamesProvider } from './context/gamesContext'
+
+import './App.css'
+
+function App() {
+  return (
+    <GamesProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="games-idea" element={<GamesIdea />} />
+            <Route path="about" element={<About />} />
+            <Route path="search" element={<Search />} />
+            <Route path="login" element={<Login />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Route>
+        </Routes>
+      </Router>
+    </GamesProvider>
+  )
+}
+
+export default App */

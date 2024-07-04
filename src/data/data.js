@@ -9,11 +9,13 @@ const gamesData = [
       'לשחקנים יש תור שבמהלכו הם יכולים לסחור במשאבים, לבנות ולהשיג נקודות.',
     urlRules:
       'https://www.youtube.com/watch?v=KUNGilPVGb4&ab_channel=MeepleTreeGames%D7%9E%D7%99%D7%A4%D7%9C%D7%98%D7%A8%D7%99%D7%9E%D7%A9%D7%97%D7%A7%D7%99%D7%A7%D7%95%D7%A4%D7%A1%D7%94',
-    numberPraticepents: '3-4',
-    playersAge: '10+',
+    minNumberPraticepents: '3',
+    maxNumberPraticepents: '4',
+    minPlayersAge: '10',
     durationGame: '90 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'בינוני',
+    categories: [ "adults"],
   },
   {
     id: 2,
@@ -23,11 +25,14 @@ const gamesData = [
     rules: 'לשחקנים יש משימות, קרבות ואוצרות למצוא במהלך המשחק.',
     urlRules:
       'https://www.youtube.com/watch?v=PsQ5zgsCKbI&ab_channel=MeepleTreeGames%D7%9E%D7%99%D7%A4%D7%9C%D7%98%D7%A8%D7%99%D7%9E%D7%A9%D7%97%D7%A7%D7%99%D7%A7%D7%95%D7%A4%D7%A1%D7%94',
-    numberPraticepents: '2-6',
-    playersAge: '12+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '6',
+    minPlayersAge: '12',
     durationGame: '120 דקות',
     typeGame: 'פנטזיה',
     gameDifficulty: 'בינוני',
+    categories: ["adults"],
   },
   {
     id: 3,
@@ -39,11 +44,14 @@ const gamesData = [
       'שחקנים נותנים רמזים לצוות שלהם כדי למצוא את המילים הנכונות בלוח המשחק.',
     urlRules:
       'https://www.google.com/search?q=%D7%A9%D7%9D-%D7%A7%D7%95%D7%93+%D7%97%D7%95%D7%A7%D7%99%D7%9D+%D7%99%D7%95%D7%98%D7%99%D7%95%D7%99%D7%91&oq=%D7%A9%D7%9D-%D7%A7%D7%95%D7%93+%D7%97%D7%95%D7%A7%D7%99%D7%9D+%D7%99%D7%95%D7%98%D7%99%D7%95%D7%99%D7%91&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKAB0gEJOTY3MWowajE1qAIAsAIA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:8d69117c,vid:ZZTyUBwagxQ,st:0',
-    numberPraticepents: '4-8',
-    playersAge: '14+',
+
+    minNumberPraticepents: '4',
+    maxNumberPraticepents: '8',
+    minPlayersAge: '14',
     durationGame: '15-30 דקות',
     typeGame: 'מילים',
     gameDifficulty: 'קל',
+    categories: ["family", "adults"],
   },
   {
     id: 4,
@@ -53,11 +61,14 @@ const gamesData = [
     rules: 'שחקנים קונים ומוכרים נכסים ומנסים להוציא את יריביהם מהמשחק.',
     urlRules:
       'https://www.youtube.com/watch?v=AuWvMgYv03g&ab_channel=GatherTogetherGames',
-    numberPraticepents: '2-6',
-    playersAge: '8+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '6',
+    minPlayersAge: '8',
     durationGame: '60-180 דקות',
     typeGame: 'כלכלי',
     gameDifficulty: 'בינוני',
+    categories: ["family", "adults"],
   },
   {
     id: 5,
@@ -69,11 +80,14 @@ const gamesData = [
       'השחקנים מניחים קלפים על ערימה בהתאם לחוקי המשחק ומטרתם להיפטר מכל הקלפים.',
     urlRules:
       'https://www.youtube.com/watch?v=GWKxgVZy444&ab_channel=%D7%9B%D7%90%D7%9F%7C%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C-%D7%AA%D7%90%D7%92%D7%99%D7%93%D7%94%D7%A9%D7%99%D7%93%D7%95%D7%A8%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99',
-    numberPraticepents: '2-10',
-    playersAge: '6+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '10',
+    minPlayersAge: '6',
     durationGame: '20-60 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'קל',
+    categories: ["kids", "family", "adults"] ,
   },
   {
     id: 6,
@@ -85,11 +99,14 @@ const gamesData = [
       'המשחק משוחק בשני תורים בו זמנית, והמטרה היא להניח קלפים במהירות גבוהה מהיריב.',
     urlRules:
       'https://www.youtube.com/watch?v=vqtuntlmn6U&ab_channel=wikiHowhttps://www.youtube.com/watch?v=vqtuntlmn6U&ab_channel=wikiHow',
-    numberPraticepents: '2',
-    playersAge: '7+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '2',
+    minPlayersAge: '7',
     durationGame: '5-10 דקות',
     typeGame: 'מהירות',
     gameDifficulty: 'קל',
+    categories:["kids", "family", "adults"],
   },
   {
     id: 7,
@@ -101,10 +118,13 @@ const gamesData = [
       'המשחק משוחק בשני תורים בו זמנית, כל שחקן שולף קלף והגבוה יותר מנצח.',
     urlRules: 'https://www.youtube.com/watch?v=03s-hH-DE7E&ab_channel=wikiHow',
     numberPraticepents: '2',
-    playersAge: '4+',
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '2',
+    minPlayersAge: '4',
     durationGame: '10-20 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'קל',
+    categories: ["kids", "family", "adults"],
   },
   {
     id: 8,
@@ -116,11 +136,14 @@ const gamesData = [
       'השחקנים מניחים קלפים על ערימה עם חוקי הנחה מסוימים ומנסים לסיים עם מינימום נקודות.',
     urlRules:
       'https://www.youtube.com/watch?v=8kaDw6lIwek&ab_channel=%D7%9B%D7%90%D7%9F%7C%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C-%D7%AA%D7%90%D7%92%D7%99%D7%93%D7%94%D7%A9%D7%99%D7%93%D7%95%D7%A8%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99',
-    numberPraticepents: '2-5',
-    playersAge: '8+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '5',
+    minPlayersAge: '8',
     durationGame: '20-30 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'בינוני',
+    categories: [ "family","adults"] 
   },
   {
     id: 9,
@@ -131,11 +154,14 @@ const gamesData = [
       'השחקנים צריכים לתאר חלומות ולעורר את הדמיון של השאר בעזרת סיפורים מקוריים.',
     urlRules:
       'https://www.google.com/search?q=jkunu%2C+jueho&oq=jkunu%2C+jueho&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMgoIAhAAGIAEGKIEMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIE0gEJMzU2M2owajE1qAIIsAIB&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:deb40467,vid:qUdcXK9CWa4,st:0',
-    numberPraticepents: '3-8',
-    playersAge: '10+',
+
+    minNumberPraticepents: '3',
+    maxNumberPraticepents: '8',
+    minPlayersAge: '10',
     durationGame: '30-45 דקות',
     typeGame: 'חברתי',
     gameDifficulty: 'קל',
+    categories: ["kids", "family"],
   },
   {
     id: 10,
@@ -146,11 +172,14 @@ const gamesData = [
     rules: 'כל שחקן מניח קלף על הערימה ומנסה להיפטר מכל הקלפים כדי לנצח.',
     urlRules:
       'https://www.google.com/search?q=j%2Cj%2Cuk+jueho&oq=j%2Cj%2Cuk+jueho&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgBGIAEMgoIAhAAGIAEGKIE0gEIMjkxOGowajSoAgCwAgE&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:4ff826b9,vid:50d0gypKo-o,st:0',
-    numberPraticepents: '2-6',
-    playersAge: '5+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '6',
+    minPlayersAge: '5',
     durationGame: '15-20 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'קל',
+    categories: ["kids", "family"],
   },
   {
     id: 11,
@@ -160,11 +189,14 @@ const gamesData = [
       'משחק קלפים שבו השחקנים מנסים לנחש את הקלף שמתאר את הסיפור שמספר המספר.',
     rules: 'המספר נותן רמז והשחקנים צריכים לנחש איזה קלף מתאים לרמז.',
     urlRules: 'https://www.youtube.com/watch?v=BfZcpWuRu98&ab_channel=hakubia',
-    numberPraticepents: '3-6',
-    playersAge: '8+',
+
+    minNumberPraticepents: '3',
+    maxNumberPraticepents: '6',
+    minPlayersAge: '8',
     durationGame: '30-45 דקות',
     typeGame: 'חברתי',
     gameDifficulty: 'קל',
+    categories: ["kids", "family", "adults"] ,
   },
   {
     id: 12,
@@ -174,11 +206,13 @@ const gamesData = [
     rules: 'המשתתפים צריכים למצוא דרכים לשרוד ולהגיע ליעדם בשלום.',
     urlRules:
       'https://www.youtube.com/watch?v=-pcO36-6S7c&t=706s&ab_channel=%D7%9C%D7%99%D7%90%D7%95%D7%A8%D7%95%D7%99%D7%99%D7%A5-LiorWeitz',
-    numberPraticepents: '2-6',
-    playersAge: '10+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '6',
+    minPlayersAge: '10',
     durationGame: '60-90 דקות',
     typeGame: 'הרפתקאות',
-    gameDifficulty: 'בינוני',
+    gameDifficulty: 'בינוני',categories: ["family", "adults"],
   },
   {
     id: 13,
@@ -189,11 +223,14 @@ const gamesData = [
     rules: 'השחקנים מניחים אריחים בסדרות או בקבוצות ומנסים להיפטר מכל האריחים.',
     urlRules:
       'https://www.youtube.com/watch?v=7V5JCeQ8fEU&ab_channel=KodkodOnline',
-    numberPraticepents: '2-4',
-    playersAge: '7+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '4',
+    minPlayersAge: '7',
     durationGame: '30-60 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'בינוני',
+    categories: ["family", "adults"] ,
   },
   {
     id: 14,
@@ -204,11 +241,14 @@ const gamesData = [
     rules: 'המשתתפים חוקרים רמזים ומשתמשים בהגיון כדי לפתור את התעלומה.',
     urlRules:
       'https://www.youtube.com/watch?v=4rbJCc5E0Mk&ab_channel=%D7%9E%D7%A9%D7%97%D7%A7%D7%99%D7%94%D7%9B%D7%99%D7%A3-%D7%9C%D7%97%D7%A9%D7%95%D7%91%D7%9E%D7%AA%D7%95%D7%9A%D7%94%D7%A7%D7%95%D7%A4%D7%A1%D7%94FunGames',
-    numberPraticepents: '2-6',
-    playersAge: '8+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '6',
+    minPlayersAge: '8',
     durationGame: '45-60 דקות',
     typeGame: 'חקירה',
     gameDifficulty: 'בינוני',
+    categories: ["family", "adults"],
   },
   {
     id: 15,
@@ -217,11 +257,14 @@ const gamesData = [
     shortDescription: 'משחק קלפים שבו השחקנים מנסים לבנות מילים מהקלפים שלהם.',
     rules: 'כל שחקן מניח קלפים בקטגוריות מסוימות כדי ליצור מילים ולקבל נקודות.',
     urlRules: ' ',
-    numberPraticepents: '2-4',
-    playersAge: '8+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '4',
+    minPlayersAge: '8',
     durationGame: '20-30 דקות',
     typeGame: 'מילים',
     gameDifficulty: 'קל',
+    categories: ["kids", "family"],
   },
   {
     id: 16,
@@ -232,11 +275,14 @@ const gamesData = [
     rules: 'השחקנים מחפשים ומכריזים על סטים של שלושה קלפים עם תכונות דומות.',
     urlRules:
       'https://www.google.com/search?q=%D7%97%D7%95%D7%A7%D7%99%D7%9D+SET+%D7%9E%D7%A9%D7%97%D7%A7&oq=%D7%97%D7%95%D7%A7%D7%99%D7%9D+SET+%D7%9E%D7%A9%D7%97%D7%A7&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTQ5MjhqMGoxNagCCLACAQ&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:cb3f9c59,vid:VxzYveXxF4s,st:0',
-    numberPraticepents: '1-4',
-    playersAge: '6+',
+
+    minNumberPraticepents: '1',
+    maxNumberPraticepents: '4',
+    minPlayersAge: '6',
     durationGame: '20 דקות',
     typeGame: 'חידות',
     gameDifficulty: 'בינוני',
+    categories: ["kids"],
   },
   {
     id: 17,
@@ -247,11 +293,14 @@ const gamesData = [
     rules:
       'כל שחקן מניח קלפים ומנסה להימנע מהחתולים המתפוצצים כדי להישאר במשחק.',
     urlRules: 'https://www.youtube.com/watch?v=nBS2C0ggI3Y&ab_channel=hakubia',
-    numberPraticepents: '2-5',
-    playersAge: '10+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '5',
+    minPlayersAge: '10',
     durationGame: '15 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'קל',
+    categories: ["family", "adults"],
   },
   {
     id: 18,
@@ -262,11 +311,14 @@ const gamesData = [
     rules:
       'המשתתפים נותנים רמזים לצוות שלהם כדי למצוא את המילים הנכונות בלוח המשחק.',
     urlRules: 'https://www.youtube.com/watch?v=s0gp3zbdDes&ab_channel=wikiHow',
-    numberPraticepents: '4-10',
-    playersAge: '12+',
+
+    minNumberPraticepents: '4',
+    maxNumberPraticepents: '10',
+    minPlayersAge: '12',
     durationGame: '30-60 דקות',
     typeGame: 'מילים',
     gameDifficulty: 'בינוני',
+    categories: ["family", "adults"],
   },
   {
     id: 19,
@@ -277,11 +329,14 @@ const gamesData = [
     rules: 'השחקנים אוספים קלפים ובונים מסלולי רכבת כדי לקשר בין יעדים.',
     urlRules:
       'https://www.youtube.com/watch?v=4JhFhyvGdik&ab_channel=WatchItPlayed',
-    numberPraticepents: '2-5',
-    playersAge: '8+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '5',
+    minPlayersAge: '8',
     durationGame: '30-60 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'בינוני',
+    categories: ["family"],
   },
   {
     id: 20,
@@ -291,11 +346,14 @@ const gamesData = [
     rules: 'השחקנים עובדים יחד כדי לרפא מחלות ולמנוע התפשטותן ברחבי העולם.',
     urlRules:
       'https://www.youtube.com/watch?v=UbawdIniF0E&ab_channel=%D7%A0%D7%A7%D7%95%D7%93%D7%AA%D7%A0%D7%99%D7%A6%D7%97%D7%95%D7%9F',
-    numberPraticepents: '2-4',
-    playersAge: '8+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '4',
+    minPlayersAge: '8',
     durationGame: '45 דקות',
-    typeGame: 'שיתוף פעולה',
+    typeGame: 'חברתי',
     gameDifficulty: 'בינוני',
+    categories: ["adults"],
   },
   {
     id: 21,
@@ -307,11 +365,14 @@ const gamesData = [
       'השחקנים מעבירים זרעים מחורים בלוח המשחק ומנסים לאסוף אותם בצד שלהם.',
     urlRules:
       'https://www.youtube.com/watch?v=cJGemP_zdf0&ab_channel=%D7%97%D7%95%D7%92%D7%99%D7%9E%D7%A9%D7%97%D7%A7%D7%99%D7%97%D7%A9%D7%99%D7%91%D7%94%D7%A9%D7%9C%D7%91%D7%95%D7%A8%D7%99%D7%A1',
-    numberPraticepents: '2',
-    playersAge: '6+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '2',
+    minPlayersAge: '6',
     durationGame: '15-30 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'קל',
+    categories: ["kids", "family"],
   },
   {
     id: 22,
@@ -322,11 +383,13 @@ const gamesData = [
     rules: 'השחקנים מזיזים חלקים על לוח המשחק ומנסים לתפוס את דגל היריב.',
     urlRules:
       'https://www.youtube.com/watch?v=7mdylj01Myk&ab_channel=Hogwa5hGaming',
-    numberPraticepents: '2',
-    playersAge: '8+',
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '2',
+    minPlayersAge: '8',
     durationGame: '45 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'בינוני',
+    categories: ["family", "adults"]
   },
   {
     id: 23,
@@ -337,11 +400,13 @@ const gamesData = [
     rules:
       'השחקנים מזיזים חלקים על לוח המשחק בהתאם לכללים כדי להפיל את המלך של היריב.',
     urlRules: 'https://www.youtube.com/watch?v=6Pqd7UFWr7M&ab_channel=wikiHow',
-    numberPraticepents: '2',
-    playersAge: '6+',
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '2',
+    minPlayersAge: '6',
     durationGame: '30-120 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'גבוה',
+    categories: ["family", "adults"],
   },
   {
     id: 24,
@@ -352,11 +417,13 @@ const gamesData = [
     rules: 'השחקנים מגלגלים קוביות ומזיזים את החיילים בהתאם לתוצאות.',
     urlRules:
       'https://www.youtube.com/watch?v=DbVR-XsaRcs&ab_channel=Best-Toys',
-    numberPraticepents: '2',
-    playersAge: '6+',
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '2',
+    minPlayersAge: '6',
     durationGame: '30-60 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'בינוני',
+    categories: ["family", "adults"],
   },
   {
     id: 25,
@@ -366,11 +433,13 @@ const gamesData = [
       'משחק לוח שבו השחקנים מנסים לתפוס את כל החיילים של היריב.',
     rules: 'השחקנים מזיזים חיילים בלוח המשבצות ומנסים לתפוס את חיילי היריב.',
     urlRules: 'https://www.youtube.com/watch?v=MOW9k_C4vFU&ab_channel=wikiHow',
-    numberPraticepents: '2',
-    playersAge: '6+',
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '2',
+    minPlayersAge: '6',
     durationGame: '20-30 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'קל',
+    ["kids", "family"]
   },
   {
     id: 26,
@@ -380,11 +449,14 @@ const gamesData = [
       'משחק שבו השחקנים מנסים למצוא זוגות של קלפים תואמים על הלוח.',
     rules: 'השחקנים הופכים קלפים בזוגות ומנסים למצוא התאמות.',
     urlRules: 'https://www.youtube.com/watch?v=1b6R5MePZYg&ab_channel=ADHDSHOP',
-    numberPraticepents: '1-4',
-    playersAge: '3+',
+
+    minNumberPraticepents: '1',
+    maxNumberPraticepents: '4',
+    minPlayersAge: '3',
     durationGame: '10-20 דקות',
     typeGame: 'חידות',
     gameDifficulty: 'קל',
+    categories: ['kids', 'family'],
   },
   {
     id: 27,
@@ -394,11 +466,14 @@ const gamesData = [
       'משחק לוח שבו השחקנים מנסים להגיע לסוף הלוח בעזרת סולמות ולהימנע מנחשים.',
     rules: 'השחקנים מגלגלים קוביות ומזיזים את החיילים בהתאם לתוצאות.',
     urlRules: 'https://www.youtube.com/watch?v=gWz0IYqSDtk&ab_channel=wikiHow',
-    numberPraticepents: '2-4',
-    playersAge: '4+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '4',
+    minPlayersAge: '4',
     durationGame: '20-30 דקות',
     typeGame: 'מזל',
     gameDifficulty: 'קל',
+    categories: ['kids', 'family'],
   },
   {
     id: 28,
@@ -409,11 +484,14 @@ const gamesData = [
     rules: 'השחקנים מזיזים את כלי הרכב שלהם בהתאם לקלפים המונחים.',
     urlRules:
       'https://play-smart.co.il/shafir_games_race?aff=GMC&gad_source=1&gclid=CjwKCAjwhIS0BhBqEiwADAUhczQAnn35m1KrrAo4SqIETI6bQXvjygpGHO_gElifFWSHtMRBy0nO6BoCVnwQAvD_BwE',
-    numberPraticepents: '2-6',
-    playersAge: '7+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '6',
+    minPlayersAge: '7',
     durationGame: '30-45 דקות',
     typeGame: 'מירוצים',
     gameDifficulty: 'בינוני',
+    categories: ['family'],
   },
   {
     id: 29,
@@ -424,11 +502,14 @@ const gamesData = [
     rules: 'השחקנים מקבלים קלפים ומבצעים מהלכים כדי ליצור ידיים מנצחות.',
     urlRules:
       'https://www.google.com/search?q=%D7%97%D7%95%D7%A7%D7%99+%D7%9E%D7%A9%D7%97%D7%A7+%D7%A4%D7%95%D7%A7%D7%A8+YOUTUBE&sca_esv=2c0e54b2c49c2288&sca_upv=1&sxsrf=ADLYWIJevWxvk_yF36nXbAelyM2WsvbOWw%3A1719776504441&ei=-LSBZtjIGuKL7M8Pk4u-8AQ&ved=0ahUKEwjYpI_dioSHAxXiBfsDHZOFD04Q4dUDCBE&uact=5&oq=%D7%97%D7%95%D7%A7%D7%99+%D7%9E%D7%A9%D7%97%D7%A7+%D7%A4%D7%95%D7%A7%D7%A8+YOUTUBE&gs_lp=Egxnd3Mtd2l6LXNlcnAiIteX15XXp9eZINee16nXl9enINek15XXp9eoIFlPVVRVQkUyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBEjZFVCaBFjJE3ABeAGQAQCYAagBoAHYCKoBAzAuOLgBA8gBAPgBAZgCCaAC5gjCAgoQABiwAxjWBBhHwgIGEAAYFhgewgIFECEYoAHCAgkQIRigARgKGCqYAwCIBgGQBgiSBwMxLjigB6cV&sclient=gws-wiz-serp#fpstate=ive&vld=cid:c38e8c26,vid:J2PBbLiiRoc,st:0',
-    numberPraticepents: '2-10',
-    playersAge: '12+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '10',
+    minPlayersAge: '12',
     durationGame: '60-120 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'בינוני',
+    categories: ['adults'],
   },
   {
     id: 30,
@@ -438,11 +519,14 @@ const gamesData = [
       'משחק קלפים לשחקן אחד שבו המטרה היא לסדר את כל הקלפים בסדר הנכון.',
     rules: 'השחקן מסדר את הקלפים בסדר הנכון בעזרת מהלכים מסוימים.',
     urlRules: 'https://www.youtube.com/watch?v=oAB5fsN2uA8&ab_channel=wikiHow',
-    numberPraticepents: '1',
-    playersAge: '8+',
+
+    minNumberPraticepents: '1',
+    maxNumberPraticepents: '1',
+    minPlayersAge: '8',
     durationGame: '10-30 דקות',
     typeGame: 'חידות',
     gameDifficulty: 'בינוני',
+    categories: ['adults'],
   },
   {
     id: 31,
@@ -453,11 +537,14 @@ const gamesData = [
     rules: 'השחקנים מסובבים את המכשיר ומנסים להימנע מלהפעיל את הקצפת.',
     urlRules:
       'https://www.youtube.com/watch?v=TjII0JHtIzk&ab_channel=%D7%90%D7%9C%D7%99%D7%90%D7%9C%D7%99%D7%94%D7%95-%D7%94%D7%A2%D7%A8%D7%95%D7%A5%D7%94%D7%A8%D7%A9%D7%9E%D7%99',
-    numberPraticepents: '2-4',
-    playersAge: '6+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '4',
+    minPlayersAge: '6',
     durationGame: '15 דקות',
     typeGame: 'מסיבה',
     gameDifficulty: 'קל',
+    categories: ['kids', 'family'],
   },
   {
     id: 32,
@@ -468,11 +555,14 @@ const gamesData = [
     rules: 'השחקנים פותרים חידות בעזרת חשיבה יצירתית ומחוץ לקופסה.',
     urlRules:
       'https://www.kravitz.co.il/products/%D7%9E%D7%A9%D7%97%D7%A7-%D7%9E%D7%97%D7%95%D7%A5-%D7%9C%D7%A7%D7%95%D7%A4%D7%A1%D7%90?variant=48486783320360&utm_source=google&utm_medium=cpc&utm_campaign=19086444207&utm_content=&utm_term=&gad_source=2&gclid=CjwKCAjwhIS0BhBqEiwADAUhc18IVAP8IPn5jDlapej2s5kj2wkhZZOApv_JyeZj62rSWMG3mrjirxoCWVMQAvD_BwE',
-    numberPraticepents: '1-4',
-    playersAge: '8+',
+
+    minNumberPraticepents: '1',
+    maxNumberPraticepents: '4',
+    minPlayersAge: '8',
     durationGame: '30-45 דקות',
     typeGame: 'חידות',
     gameDifficulty: 'בינוני',
+    categories: ['kids', 'family'],
   },
   {
     id: 33,
@@ -483,11 +573,14 @@ const gamesData = [
     rules: 'השחקנים מניחים אריחים על הלוח ויוצרים מילים כדי לקבל נקודות.',
     urlRules:
       'https://www.youtube.com/watch?v=9mrU1Xdp1F8&ab_channel=TalDegani',
-    numberPraticepents: '2-4',
-    playersAge: '8+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '4',
+    minPlayersAge: '8',
     durationGame: '30-90 דקות',
     typeGame: 'מילים',
     gameDifficulty: 'בינוני',
+    categories: ['family', 'adults'],
   },
   {
     id: 34,
@@ -497,11 +590,14 @@ const gamesData = [
       'משחק תפקידים שבו השחקנים צריכים לגלות מי הם השחקנים האחרים ומה התפקיד שלהם.',
     rules: 'השחקנים משתמשים ברמזים וחוקרים כדי לגלות את זהותם של האחרים.',
     urlRules: ' ',
-    numberPraticepents: '2-5',
-    playersAge: '10+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '5',
+    minPlayersAge: '10',
     durationGame: '45-60 דקות',
     typeGame: 'תפקידים',
     gameDifficulty: 'בינוני',
+    categories: ['adults'],
   },
   {
     id: 35,
@@ -512,11 +608,14 @@ const gamesData = [
     rules: 'השחקנים מניחים אריחים עם מספרים תואמים ומנסים ליצור שרשרת ארוכה.',
     urlRules:
       'https://www.youtube.com/watch?v=jMHJhZlAbdc&ab_channel=TripleSGames',
-    numberPraticepents: '2-4',
-    playersAge: '5+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '4',
+    minPlayersAge: '5',
     durationGame: '20-30 דקות',
     typeGame: 'לוח',
     gameDifficulty: 'קל',
+    categories: ['kids', 'family'],
   },
   {
     id: 36,
@@ -527,12 +626,16 @@ const gamesData = [
     rules: 'השחקנים מניחים קלפים מהר ומנסים לסיים עם כמה שפחות קלפים.',
     urlRules:
       'https://www.youtube.com/watch?v=5eeK9qAsfxU&ab_channel=IgalsMadToys',
-    numberPraticepents: '2-8',
-    playersAge: '8+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '8',
+    minPlayersAge: '8',
     durationGame: '10-20 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'קל',
+    categories: ['kids', 'family', 'adults'],
   },
+
   {
     id: 37,
     gameName: 'צוללות',
@@ -542,12 +645,16 @@ const gamesData = [
     rules:
       'השחקנים מניחים צוללות על הלוח ומנסים לנחש את מיקומן של הצוללות של היריב.',
     urlRules: 'https://www.youtube.com/watch?v=RY4nAyRgkLo&ab_channel=wikiHow',
-    numberPraticepents: '2',
-    playersAge: '6+',
+
+    minNumberPraticepents: '2',
+    maxNumberPraticepents: '2',
+    minPlayersAge: '6',
     durationGame: '20-30 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'קל',
+    categories: ['kids', 'family', 'adults'],
   },
+
   {
     id: 38,
     gameName: 'יאצי',
@@ -557,12 +664,13 @@ const gamesData = [
     rules:
       'השחקנים מגלגלים קוביות ויוצרים קומבינציות כדי לקבל את הניקוד הגבוה ביותר.',
     urlRules: 'https://www.youtube.com/watch?v=LEY_E8MRK4o&ab_channel=wikiHow',
-    numberPraticepents: '1-6',
-    playersAge: '8+',
+
+    minNumberPraticepents: '1',
+    maxNumberPraticepents: '6',
+    minPlayersAge: '8',
     durationGame: '30 דקות',
     typeGame: 'קוביות',
     gameDifficulty: 'בינוני',
+    categories: ['kids', 'family', 'adults'],
   },
 ]
-
-export default gamesData

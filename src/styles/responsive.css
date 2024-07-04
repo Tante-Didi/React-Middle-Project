@@ -1,0 +1,23 @@
+/*  Phone  */
+@media only screen and (max-width: 575.98px) {
+}
+
+/*  larger Phones  */
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 1015px) {
+}
+
+/* laptop */
+
+@media only screen and (min-width: 992px) and (max-width: 1480px) {
+}
+
+/* large home computers */
+
+@media only screen and (min-width: 1400px) {
+}
