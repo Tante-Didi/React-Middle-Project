@@ -426,10 +426,10 @@ const GamesIdeas = () => {
         {gameToShow.map((game) => (
           <div key={game.id} className="game-card">
             <img src={game.img} alt={game.gameName} />
-            <h2>{game.gameName}</h2>
-            <p>רמת קושי: {game.gameDifficulty}</p>
-            <p>אורך המשחק: {game.durationGame}</p>
-            <p>סוג המשחק: {game.typeGame}</p>
+            <h1>{game.gameName}</h1>
+            <p className="header-one">רמת קושי: {game.gameDifficulty}</p>
+            <p className="header-one">אורך המשחק: {game.durationGame}</p>
+            <p className="header-one">סוג המשחק: {game.typeGame}</p>
           </div>
         ))}
       </div>

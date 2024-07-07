@@ -42,8 +42,7 @@ const ClickableCategory = () => {
           <br />
           <br />
           <br />
-          <p className="home-page-title leshacek"> לשחק </p>
-          <p className="home-page-title q">? </p>
+          <p className="home-page-title leshacek"> ?לשחק </p>
         </div>
 
         {categoriesName.map((category, index) => (

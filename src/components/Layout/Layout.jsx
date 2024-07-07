@@ -19,7 +19,7 @@ function Layout() {
             <li>
               <Link to="/login" className="layout-font one">
                 {' '}
-                התחברות
+                שלום, דניאלה
               </Link>
             </li>
             <li>

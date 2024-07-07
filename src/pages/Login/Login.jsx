@@ -3,7 +3,7 @@ import React from 'react'
 import './Login.css'
 
 const Login = () => {
-  return <div>Login</div>
+  return <div className="login">התחברת בהצלחה לחשבונך</div>
 }
 
 export default Login

@@ -80,7 +80,7 @@ li .one {
   border: 0.1rem solid rgb(26, 96, 248);
   border-radius: 4px;
   background-color: rgb(28, 84, 168);
-  color: rgb(255, 255, 255);
+  color: hsla(217 100% 56% / 1);
   height: 30vh;
   width: 50vw;
 
@@ -123,4 +123,7 @@ li .one:is(:focus, :focus-visible, :active) {
   .li .one {
     transition: linear;
   }
+}
+.footer-p {
+  height: 10vh;
 }

@@ -51,3 +51,12 @@
 .back a:hover {
   text-decoration: underline;
 }
+.back {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-one {
+  font-size: 1.5rem;
+}

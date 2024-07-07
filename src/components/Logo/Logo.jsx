@@ -12,7 +12,7 @@ const Logo = () => {
             alt="Your Company Logo"
             id="logo"
           />
-          {/* <span className="logo-text">צאי מהקופסא</span> */}
+          {/* <span className="logo-text">.צאי מהקופסא</span> */}
         </a>
       </Link>
     </div>
