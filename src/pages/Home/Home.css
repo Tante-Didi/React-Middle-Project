@@ -1,27 +1,64 @@
 .clickable-category {
-  width: 42vw;
-  height: 45vh;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+  width: 21vw;
+  height: 25vh;
+
   border-radius: 7px;
-  transition: all 0.2s linear;
   cursor: pointer;
   gap: 10px;
   display: flex;
   justify-content: space-around;
-  margin: 0 2.9rem;
+  margin-left: 0rem 2.99rem;
+  background: #bce4f5;
+  box-shadow: 30px 30px 28px #808080, -30px -30px 28px #ffffff;
+  transition: all 0.2s linear;
 }
+.category-0,
+.category-1,
+.category-2 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* .category-0::before,
+.category-1::before,
+.category-2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  z-index: 1;
+} 
+
+.category-0::before {
+  background-image: url('/public/assets/btn-images/kids.jpg');
+}
+
+.category-1::before {
+  background-image: url('/public/assets/btn-images/family.jpg');
+}
+
+.category-2::before {
+  background-image: url('/public/assets/btn-images/adults.jpg');
+}*/
 
 .clickable-category:hover {
   transform: scale(1.09);
 }
 .div-container {
+  margin: 0;
   width: 100%;
-  height: 100vh;
+  height: 74.4vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 35px;
   background-color: rgb(236, 238, 238);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: url('/public/assets/fonts/gan/gan/ganclm_bold-webfont.woff');
 }

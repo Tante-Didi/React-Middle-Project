@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet, Link } from 'react-router-dom'
 import Search from '../Search/Search'
+import Logo from '../Logo/Logo'
 
 import './Layout.css'
 
@@ -8,17 +9,18 @@ function Layout() {
   return (
     <div className="layout-container">
       <header>
-        <h6>Layout Page</h6>
         <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
+          <ul className="larger">
+            <li className="logo">
+              <Link to="logo">
+                <Logo />
+              </Link>
             </li>
             <li>
-              <Link to="/games-idea">Games Idea</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
+              <Link to="/login" className="layout-font one">
+                {' '}
+                התחברות
+              </Link>
             </li>
             <li>
               <Link to="/search">
@@ -26,7 +28,19 @@ function Layout() {
               </Link>
             </li>
             <li>
-              <Link to="/login">Login</Link>
+              <Link to="/about" className="layout-font two">
+                אודות
+              </Link>
+            </li>
+            <li>
+              <Link to="/games-idea" className="layout-font three">
+                רעיונות למשחקים
+              </Link>
+            </li>
+            <li>
+              <Link to="/" className="layout-font four">
+                דף הבית
+              </Link>
             </li>
           </ul>
         </nav>
@@ -35,7 +49,13 @@ function Layout() {
         <Outlet />
       </main>
       <footer>
-        <p>&copy; 2024 My React App</p>
+        <p className="footer-p">
+          <div className="text">. &copy; צאי מהקופסא 2024</div>
+          <br />
+          <div className="text">אפליקציה לרעיונות משחקי קופסא</div>
+          <br />
+          <div className="text">כל הזכויות שמורות לדניאלה ארמוני-אלון</div>
+        </p>
       </footer>
     </div>
   )

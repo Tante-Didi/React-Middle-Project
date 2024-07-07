@@ -6,10 +6,8 @@ import './Home.css'
 
 function Home() {
   return (
-    <div>
-      <h2>Home Page</h2>
-      <div className="main-homepage-container">
-        <p className="home-page-title">מה בא לנו לשחק?</p>
+    <div className="home-container   ">
+      <div className="main-homepage-container ">
         <ClickableCategory />
       </div>
     </div>

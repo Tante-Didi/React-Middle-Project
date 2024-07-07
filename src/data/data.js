@@ -15,7 +15,7 @@ const gamesData = [
     durationGame: '90 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'בינוני',
-    categories: [ "adults"],
+    categories: ['adults'],
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const gamesData = [
     durationGame: '120 דקות',
     typeGame: 'פנטזיה',
     gameDifficulty: 'בינוני',
-    categories: ["adults"],
+    categories: ['adults'],
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ const gamesData = [
     durationGame: '15-30 דקות',
     typeGame: 'מילים',
     gameDifficulty: 'קל',
-    categories: ["family", "adults"],
+    categories: ['family', 'adults'],
   },
   {
     id: 4,
@@ -68,7 +68,7 @@ const gamesData = [
     durationGame: '60-180 דקות',
     typeGame: 'כלכלי',
     gameDifficulty: 'בינוני',
-    categories: ["family", "adults"],
+    categories: ['family', 'adults'],
   },
   {
     id: 5,
@@ -87,7 +87,7 @@ const gamesData = [
     durationGame: '20-60 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'קל',
-    categories: ["kids", "family", "adults"] ,
+    categories: ['kids', 'family', 'adults'],
   },
   {
     id: 6,
@@ -106,7 +106,7 @@ const gamesData = [
     durationGame: '5-10 דקות',
     typeGame: 'מהירות',
     gameDifficulty: 'קל',
-    categories:["kids", "family", "adults"],
+    categories: ['kids', 'family', 'adults'],
   },
   {
     id: 7,
@@ -124,7 +124,7 @@ const gamesData = [
     durationGame: '10-20 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'קל',
-    categories: ["kids", "family", "adults"],
+    categories: ['kids', 'family', 'adults'],
   },
   {
     id: 8,
@@ -143,7 +143,7 @@ const gamesData = [
     durationGame: '20-30 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'בינוני',
-    categories: [ "family","adults"] 
+    categories: ['family', 'adults'],
   },
   {
     id: 9,
@@ -161,7 +161,7 @@ const gamesData = [
     durationGame: '30-45 דקות',
     typeGame: 'חברתי',
     gameDifficulty: 'קל',
-    categories: ["kids", "family"],
+    categories: ['kids', 'family'],
   },
   {
     id: 10,
@@ -179,7 +179,7 @@ const gamesData = [
     durationGame: '15-20 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'קל',
-    categories: ["kids", "family"],
+    categories: ['kids', 'family'],
   },
   {
     id: 11,
@@ -196,7 +196,7 @@ const gamesData = [
     durationGame: '30-45 דקות',
     typeGame: 'חברתי',
     gameDifficulty: 'קל',
-    categories: ["kids", "family", "adults"] ,
+    categories: ['kids', 'family', 'adults'],
   },
   {
     id: 12,
@@ -212,7 +212,8 @@ const gamesData = [
     minPlayersAge: '10',
     durationGame: '60-90 דקות',
     typeGame: 'הרפתקאות',
-    gameDifficulty: 'בינוני',categories: ["family", "adults"],
+    gameDifficulty: 'בינוני',
+    categories: ['family', 'adults'],
   },
   {
     id: 13,
@@ -230,7 +231,7 @@ const gamesData = [
     durationGame: '30-60 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'בינוני',
-    categories: ["family", "adults"] ,
+    categories: ['family', 'adults'],
   },
   {
     id: 14,
@@ -248,7 +249,7 @@ const gamesData = [
     durationGame: '45-60 דקות',
     typeGame: 'חקירה',
     gameDifficulty: 'בינוני',
-    categories: ["family", "adults"],
+    categories: ['family', 'adults'],
   },
   {
     id: 15,
@@ -264,7 +265,7 @@ const gamesData = [
     durationGame: '20-30 דקות',
     typeGame: 'מילים',
     gameDifficulty: 'קל',
-    categories: ["kids", "family"],
+    categories: ['kids', 'family'],
   },
   {
     id: 16,
@@ -282,7 +283,7 @@ const gamesData = [
     durationGame: '20 דקות',
     typeGame: 'חידות',
     gameDifficulty: 'בינוני',
-    categories: ["kids"],
+    categories: ['kids'],
   },
   {
     id: 17,
@@ -300,7 +301,7 @@ const gamesData = [
     durationGame: '15 דקות',
     typeGame: 'קלפים',
     gameDifficulty: 'קל',
-    categories: ["family", "adults"],
+    categories: ['family', 'adults'],
   },
   {
     id: 18,
@@ -318,7 +319,7 @@ const gamesData = [
     durationGame: '30-60 דקות',
     typeGame: 'מילים',
     gameDifficulty: 'בינוני',
-    categories: ["family", "adults"],
+    categories: ['family', 'adults'],
   },
   {
     id: 19,
@@ -336,7 +337,7 @@ const gamesData = [
     durationGame: '30-60 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'בינוני',
-    categories: ["family"],
+    categories: ['family'],
   },
   {
     id: 20,
@@ -353,7 +354,7 @@ const gamesData = [
     durationGame: '45 דקות',
     typeGame: 'חברתי',
     gameDifficulty: 'בינוני',
-    categories: ["adults"],
+    categories: ['adults'],
   },
   {
     id: 21,
@@ -372,7 +373,7 @@ const gamesData = [
     durationGame: '15-30 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'קל',
-    categories: ["kids", "family"],
+    categories: ['kids', 'family'],
   },
   {
     id: 22,
@@ -389,7 +390,7 @@ const gamesData = [
     durationGame: '45 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'בינוני',
-    categories: ["family", "adults"]
+    categories: ['family', 'adults'],
   },
   {
     id: 23,
@@ -406,7 +407,7 @@ const gamesData = [
     durationGame: '30-120 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'גבוה',
-    categories: ["family", "adults"],
+    categories: ['family', 'adults'],
   },
   {
     id: 24,
@@ -423,7 +424,7 @@ const gamesData = [
     durationGame: '30-60 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'בינוני',
-    categories: ["family", "adults"],
+    categories: ['family', 'adults'],
   },
   {
     id: 25,
@@ -439,7 +440,7 @@ const gamesData = [
     durationGame: '20-30 דקות',
     typeGame: 'אסטרטגיה',
     gameDifficulty: 'קל',
-    ["kids", "family"]
+    categories: ['kids', 'family'],
   },
   {
     id: 26,

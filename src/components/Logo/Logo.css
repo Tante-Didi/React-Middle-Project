@@ -1,0 +1,34 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  /* margin-top: 0.1rem; */
+
+  text-align: center;
+}
+
+.logo-link {
+  /* border: solid 2px rgb(147, 210, 30); */
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-decoration: none; /* Remove underline from link */
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#logo {
+  width: 50px; /* Adjust the size of the logo as needed */
+  height: auto;
+  /* border: solid 2px rgb(30, 72, 210); */
+  margin-bottom: 3rem;
+}
+
+.logo-text {
+  margin-left: 5px; /* Space between logo and text */
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  color: #333; /* Adjust the text color as needed */
+  margin: 0;
+}

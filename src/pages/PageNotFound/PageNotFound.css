@@ -1,0 +1,35 @@
+.page-not-found {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+
+  width: 21vw;
+  height: 25vh;
+
+  background: #bce4f5;
+  box-shadow: 30px 30px 28px #808080, -30px -30px 28px #ffffff;
+  transition: all 0.2s linear;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+.page-not-found h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.page-not-found p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.page-not-found a {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.page-not-found a:hover {
+  text-decoration: underline;
+}

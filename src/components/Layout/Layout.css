@@ -1,5 +1,19 @@
 header {
   display: flex;
+  width: 100%;
+  height: 10vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 55px;
+  background-color: #bce4f5;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.99rem;
+  padding-top: 3rem;
+  /* border: solid 5px red; */
 }
 ul {
   display: flex;
@@ -14,8 +28,95 @@ main {
 }
 
 footer {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 0px;
-  border: solid 2px yellow;
+  border: solid 2px rgba(255, 255, 0, 0);
   width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  margin-left: 0;
   height: 100%;
+
+  /* border: solid 5px rgb(47, 0, 255); */
+}
+
+li .layout-font {
+  font-family: 'Rubik Doodle Shadow', system-ui;
+  font-weight: 500;
+  font-style: normal;
+
+  /* border: solid 5px rgb(0, 255, 213); */
+  margin: 3rem;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+li .layout-font:hover {
+  transform: scale(1.09);
+}
+
+.footer-p {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.text {
+  display: inline-block; /* Make each text block inline to align based on its own length */
+  text-align: left; /* Ensure the text inside each block is left aligned */
+  margin: 0.01px 0;
+}
+
+li .one {
+  border: 0.1rem solid rgb(26, 96, 248);
+  border-radius: 4px;
+  background-color: rgb(28, 84, 168);
+  color: rgb(255, 255, 255);
+  height: 30vh;
+  width: 50vw;
+
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsla(194 100% 69% / 1);
+  --btn-bg-2: hsla(217 100% 56% / 1);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.35em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1.5rem);
+  font-family: 'Rubik Doodle Shadow', system-ui;
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(
+    325deg,
+    var(--btn-bg-2) 0%,
+    var(--btn-bg-1) 55%,
+    var(--btn-bg-2) 90%
+  );
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5),
+    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
+    inset 4px 4px 8px rgba(175, 230, 255, 0.5),
+    inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+}
+li .one:hover {
+  background-position: right top;
+}
+li .one:is(:focus, :focus-visible, :active) {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+}
+@media (prefers-reduced-motion: reduce) {
+  .li .one {
+    transition: linear;
+  }
 }

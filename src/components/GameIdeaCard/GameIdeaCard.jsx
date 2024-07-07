@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { useParams } from 'react-router-dom'
+import { useDataContext } from '../../context/gamesContext'
 import './GameIdeaCard.css'
 
 const GameIdeaCard = () => {

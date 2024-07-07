@@ -1,12 +1,21 @@
 .clickable-category {
+  background-size: cover;
   width: 92px;
   height: 97px;
-  
+
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
   border-radius: 7px;
   transition: all 0.2s linear;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  overflow-x: hidden;
+  /* background-image: url('/public/assets/btn-images/family.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
 }
 
 .clickable-category:hover {
@@ -14,34 +23,42 @@
 }
 .div-container {
   width: 100%;
-  height: 100vh;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 55px;
-  background-color: rgb(236, 238, 238);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Rubik Doodle Shadow', system-ui;
 }
-
-
-
-/*import './ClickableCategory.css'
-// import { useDataContext } from '../../context/gamesContext'
-
-// const ClickableCategory = () => {
-//   const { games } = useDataContext()
-
-//   console.log('games from home page ', games)
-
-//   console.log(games.categories[0])
-
-//   return (
-//     <div className="clickableCategoryCard">
-//       <p>ClickableCategory</p>
-//       <div></div>
-//     </div>
-//   )
-// }
-
-// export default ClickableCategory
+.home-page-title {
+  font-size: 5rem;
+}
+.P-container {
+  display: flex;
+  flex-direction: column;
+  /* border: solid yellow 2px; */
+  width: 25%;
+}
+.P-container .ma {
+  padding-left: 90%;
+  transition: all 0.2s linear;
+}
+.P-container .ba {
+  padding-left: 70%;
+  transition: all 0.2s linear;
+}
+.P-container .lanu {
+  padding-left: 45%;
+  transition: all 0.2s linear;
+}
+.P-container .leshacek {
+  padding-left: 10%;
+  transition: all 0.2s linear;
+}
+.P-container .q {
+  padding-left: 0.01%;
+  transition: all 0.2s linear;
+}
+.P-container:hover {
+  transform: scale(1.09);
+}
