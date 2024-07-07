@@ -51,9 +51,9 @@ function Layout() {
       <footer>
         <p className="footer-p">
           <div className="text">. &copy; צאי מהקופסא 2024</div>
-          <br />
+
           <div className="text">אפליקציה לרעיונות משחקי קופסא</div>
-          <br />
+
           <div className="text">כל הזכויות שמורות לדניאלה ארמוני-אלון</div>
         </p>
       </footer>

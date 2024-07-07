@@ -1,6 +1,6 @@
 .clickable-category {
   width: 21vw;
-  height: 25vh;
+  height: 47vh;
 
   border-radius: 7px;
   cursor: pointer;
@@ -12,12 +12,26 @@
   box-shadow: 30px 30px 28px #808080, -30px -30px 28px #ffffff;
   transition: all 0.2s linear;
 }
-.category-0,
-.category-1,
-.category-2 {
+.category-0 {
+  background-image: url('/public/assets/btn-images/kids.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  clip-path: polygon(21% 0, 100% 0%, 80% 100%, 0 100%);
+}
+.category-1 {
+  background-image: url('/public/assets/btn-images/family.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.category-2 {
+  background-image: url('/public/assets/btn-images/adults.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 83% 0, 100% 100%, 19% 100%);
 }
 
 /* .category-0::before,
@@ -61,4 +75,5 @@
   gap: 35px;
   background-color: rgb(236, 238, 238);
   font-family: url('/public/assets/fonts/gan/gan/ganclm_bold-webfont.woff');
+  color: rgb(11, 154, 250);
 }

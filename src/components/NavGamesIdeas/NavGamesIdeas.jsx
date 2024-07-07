@@ -85,7 +85,7 @@ const NavGamesIdeas = ({ games, onFilterChange }) => {
         <div className="nested-btns-container">
           {selectedButtons.map((btnKey) => (
             <div key={btnKey} className="nested-category-card">
-              <h2>{nestedCategory.find((cat) => cat.key === btnKey).label}</h2>
+              <h1>{nestedCategory.find((cat) => cat.key === btnKey).label}</h1>
               <div className="nested-btns">
                 {Object.keys(filters[btnKey]).map((btn) => (
                   <button

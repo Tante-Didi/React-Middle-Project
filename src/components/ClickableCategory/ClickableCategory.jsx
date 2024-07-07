@@ -50,7 +50,7 @@ const ClickableCategory = () => {
           <Link
             to={category}
             key={index}
-            className={`clickable-category category-${index}`}
+            className={`clickable-category category-${index} `}
           >
             {formatNames[category]}
           </Link>
