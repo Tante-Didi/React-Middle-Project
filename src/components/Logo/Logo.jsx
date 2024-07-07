@@ -8,7 +8,7 @@ const Logo = () => {
       <Link to="/" className="logo-link">
         <a href="index.html" className="logo-link">
           <img
-            src="/public/girl-thinks-while-playing.svg"
+            src="../../../public/girl-thinks-while-playing.svg"
             alt="Your Company Logo"
             id="logo"
           />
