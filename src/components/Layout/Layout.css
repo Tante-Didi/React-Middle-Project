@@ -57,6 +57,16 @@ li .layout-font {
   cursor: pointer;
 }
 
+.about {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Rubik Doodle Shadow', system-ui;
+  color: black;
+  font-size: 80px;
+  height: 79vh;
+}
+
 li .layout-font:hover {
   transform: scale(1.09);
 }

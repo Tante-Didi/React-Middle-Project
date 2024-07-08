@@ -1,3 +1,12 @@
-div .odot {
+.about-container {
   background-image: url('/public/about.JPG');
+  width: 150vh;
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 13%;
 }

@@ -10,6 +10,7 @@ const Search = () => {
         className="search__input"
         placeholder="חפש את שם המשחק כאן"
       />
+
       <button className="search__button">
         <svg className="search__icon" aria-hidden="true" viewBox="0 0 24 24">
           <g>

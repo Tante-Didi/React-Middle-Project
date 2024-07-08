@@ -5,7 +5,7 @@ import './About.css'
 const About = () => {
   return (
     <div>
-      <div className="odot"></div>
+      <div className="about-container"></div>
     </div>
   )
 }
